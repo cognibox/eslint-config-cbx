@@ -12,7 +12,6 @@ module.exports = {
     es6: true,
     browser: true,
   },
-  files: ['**/*.vue', '**/*.js'],
   plugins: [
     'vue',
   ],
