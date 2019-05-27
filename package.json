@@ -1,5 +1,5 @@
 {
-  "name": "cbx-eslint-config",
+  "name": "eslint-config-cbx",
   "version": "1.0.0",
   "description": "Eslint config for all Cognibox projects",
   "main": "index.js",
