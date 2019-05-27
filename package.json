@@ -1,0 +1,16 @@
+{
+  "name": "cbx-eslint-config",
+  "version": "1.0.0",
+  "description": "Eslint config for all Cognibox projects",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cognibox/cbx-eslint-config.git"
+  },
+  "author": "Cognibox",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cognibox/cbx-eslint-config/issues"
+  },
+  "homepage": "https://github.com/cognibox/cbx-eslint-config#readme"
+}
