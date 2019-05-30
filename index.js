@@ -171,7 +171,7 @@ module.exports = {
     'no-self-assign': ['error', { 'props': true }],
     'no-self-compare': 'error',
     'no-sequences': 'error',
-    'no-shadow': ['error', { 'builtinGlobals': true, 'hoist': 'all' }],
+    'no-shadow': ['error', { 'builtinGlobals': false, 'hoist': 'all' }],
     'no-shadow-restricted-names': 'error',
     'no-sparse-arrays': 'error',
     'no-sync': 'off',

@@ -12,5 +12,9 @@
   "bugs": {
     "url": "https://github.com/cognibox/cbx-eslint-config/issues"
   },
+  "dependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint-plugin-vue": "^3.0.0"
+  },
   "homepage": "https://github.com/cognibox/cbx-eslint-config#readme"
 }
