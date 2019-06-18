@@ -157,7 +157,7 @@ module.exports = {
     'no-process-env': 'off',
     'no-process-exit': 'off',
     'no-proto': 'error',
-    'no-prototype-builtins': 'error',
+    'no-prototype-builtins': 'off',
     'no-redeclare': ['error', { 'builtinGlobals': false }],
     'no-regex-spaces': 'error',
     'no-restricted-globals': 'off',
