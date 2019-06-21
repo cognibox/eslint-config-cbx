@@ -1,7 +1,6 @@
 module.exports = {
   extends: [
-    'eslint:recommended',
-    'plugin:vue/recommended',
+    'eslint:recommended'
   ],
   parserOptions: {
     parser: 'babel-eslint',
@@ -12,9 +11,6 @@ module.exports = {
     es6: true,
     browser: true,
   },
-  plugins: [
-    'vue',
-  ],
   rules: {
     'accessor-pairs': ['error', { 'getWithoutSet': true, 'setWithoutGet': true }],
     'array-bracket-newline': ['error', { 'multiline': true }],
