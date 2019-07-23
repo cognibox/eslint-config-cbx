@@ -1,6 +1,6 @@
 {
   "name": "@cognibox/eslint-config-cbx",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Eslint config for all Cognibox projects",
   "main": "index.js",
   "repository": {
@@ -20,6 +20,9 @@
     "eslint": "^5.16.0",
     "babel-eslint": "^10.0.1"
   },
+  "files": [
+    "index.js"
+  ],
   "peerDependencies": {
     "eslint": "^5.0.0"
   },
