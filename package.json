@@ -1,6 +1,6 @@
 {
   "name": "@cognibox/eslint-config-cbx",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Eslint config for all Cognibox projects",
   "main": "index.js",
   "repository": {
@@ -17,15 +17,14 @@
     "config"
   ],
   "devDependencies": {
-    "@cognibox/eslint-plugin-no-super-async": "^1.0.1",
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0"
   },
   "files": [
     "index.js"
   ],
-  "peerDependencies": {
-    "eslint": "^5.0.0"
-  },
-  "homepage": "https://github.com/cognibox/cbx-eslint-config#readme"
+  "homepage": "https://github.com/cognibox/cbx-eslint-config#readme",
+  "dependencies": {
+    "@cognibox/eslint-plugin-no-super-async": "^1.0.1"
+  }
 }
