@@ -11,7 +11,9 @@ module.exports = {
     es6: true,
     browser: true,
   },
+  plugins: ['@cognibox/no-super-async'],
   rules: {
+    '@cognibox/no-super-async/no-super-async': ['error'],
     'accessor-pairs': ['error', { 'getWithoutSet': true, 'setWithoutGet': true }],
     'array-bracket-newline': ['error', { 'multiline': true }],
     'array-bracket-spacing': ['error', 'never'],
