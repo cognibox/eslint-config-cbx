@@ -17,8 +17,9 @@
     "config"
   ],
   "devDependencies": {
-    "eslint": "^5.16.0",
-    "babel-eslint": "^10.0.1"
+    "@cognibox/eslint-plugin-no-super-async": "^1.0.1",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0"
   },
   "files": [
     "index.js"
