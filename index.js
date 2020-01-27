@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    'eslint:recommended'
+    'eslint:recommended',
   ],
   parserOptions: {
     parser: 'babel-eslint',
@@ -28,7 +28,13 @@ module.exports = {
     'camelcase': ['error', { 'properties': 'always' }],
     'capitalized-comments': 'off',
     'class-methods-use-this': 'off',
-    'comma-dangle': ['error', 'always-multiline'],
+    'comma-dangle': ['error', {
+      'arrays': 'always-multiline',
+      'objects': 'always-multiline',
+      'imports': 'always-multiline',
+      'exports': 'always-multiline',
+      'functions': 'always-multiline'
+    }],
     'comma-spacing': ['error', { 'before': false, 'after': true }],
     'comma-style': ['error', 'last'],
     'complexity': 'off',
