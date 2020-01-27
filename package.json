@@ -1,8 +1,9 @@
 {
-  "name": "eslint-config-cbx",
-  "version": "1.0.0",
+  "name": "@cognibox/eslint-config-cbx",
+  "version": "1.1.1",
   "description": "Eslint config for all Cognibox projects",
   "main": "index.js",
+  "homepage": "https://github.com/cognibox/cbx-eslint-config#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cognibox/cbx-eslint-config.git"
@@ -14,9 +15,11 @@
   },
   "keywords": [
     "eslint",
-    "config",
-    "vue"
+    "config"
   ],
+  "dependencies": {
+    "@cognibox/eslint-plugin-no-super-async": "^1.0.1"
+  },
   "devDependencies": {
     "eslint": "^6.2.2",
     "babel-eslint": "^10.0.3"
@@ -24,5 +27,7 @@
   "peerDependencies": {
     "eslint": "^5.0.0 || ^6.0.0"
   },
-  "homepage": "https://github.com/cognibox/cbx-eslint-config#readme"
+  "files": [
+    "index.js"
+  ]
 }
