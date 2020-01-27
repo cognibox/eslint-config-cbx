@@ -33,7 +33,7 @@ module.exports = {
       'objects': 'always-multiline',
       'imports': 'always-multiline',
       'exports': 'always-multiline',
-      'functions': 'only-multiline'
+      'functions': 'always-multiline'
     }],
     'comma-spacing': ['error', { 'before': false, 'after': true }],
     'comma-style': ['error', 'last'],
