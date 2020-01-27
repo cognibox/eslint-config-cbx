@@ -1,7 +1,6 @@
 module.exports = {
   extends: [
     'eslint:recommended',
-    'plugin:vue/recommended',
   ],
   parserOptions: {
     parser: 'babel-eslint',
@@ -12,9 +11,6 @@ module.exports = {
     es6: true,
     browser: true,
   },
-  plugins: [
-    'vue',
-  ],
   rules: {
     'accessor-pairs': ['error', { 'getWithoutSet': true, 'setWithoutGet': true }],
     'array-bracket-newline': ['error', { 'multiline': true }],
@@ -30,7 +26,13 @@ module.exports = {
     'camelcase': ['error', { 'properties': 'always' }],
     'capitalized-comments': 'off',
     'class-methods-use-this': 'error',
-    'comma-dangle': ['error', 'always-multiline'],
+    'comma-dangle': ['error', {
+      'arrays': 'always-multiline',
+      'objects': 'always-multiline',
+      'imports': 'always-multiline',
+      'exports': 'always-multiline',
+      'functions': 'only-multiline'
+    }],
     'comma-spacing': ['error', { 'before': false, 'after': true }],
     'comma-style': ['error', 'last'],
     'complexity': 'off',

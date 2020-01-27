@@ -18,12 +18,11 @@
     "vue"
   ],
   "devDependencies": {
-    "eslint": "^5.16.0",
-    "babel-eslint": "^10.0.1",
-    "eslint-plugin-vue": "^5.2.2"
+    "eslint": "^6.2.2",
+    "babel-eslint": "^10.0.3"
   },
   "peerDependencies": {
-    "eslint": "^5.0.0"
+    "eslint": "^5.0.0 || ^6.0.0"
   },
   "homepage": "https://github.com/cognibox/cbx-eslint-config#readme"
 }
