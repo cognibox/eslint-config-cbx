@@ -28,7 +28,7 @@ inquirer
 
     fs.writeFileSync(pkgPath, JSON.stringify(packageJson, null, packageJsonIndent), 'utf8');
 
-    execSync(`git commit -am "${answers.version}" && git push ${remote} HEAD:master`);
+    execSync(`npm install && git commit -am "${answers.version}" && git push ${remote} HEAD:master`);
     execSync(`git commit -m "release ${answers.version}"`);
     execSync(`git tag ${answers.version} && git push ${remote} ${answers.version}`);
     execSync(`npm publish --tag ${answers.version}`);
